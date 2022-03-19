@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+}
+.navbar{
+    background-color: #180A0A;
+    font-family: 'Abril Fatface', cursive;
+    color: white;
+    margin: 0;
+    padding: 0%;
+    height: 100px;
+    width: 100%;
+}
+.navtext{
+    padding: 30px 5px 5px 10px;
+    font-size: xx-large;
+    margin:0;
+}
+
+.info-text{
+    
+    text-align: center;
+    width: 50%;
+    display: inline-block;  
+    padding: 10px;
+    
+}
+
+.infoimage{
+    width: 50%;
+    padding: 10px;
+    
+
+}
+.info-text-header{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 1cm;
+    color: #F0A500;
+}
+.info-text-defn{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: x-large;
+    color: #F5F5F5;
+}
+.info{
+    background-color: #1A132F;;
+    display: inline-block;
+}
+.info-img{
+    width: 45%;
+    display: inline-block;
+    text-align: right;
+}
+.form-elements{
+    display: inline-block;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: large;
+}
+.age{
+    display: inline-block;
+    padding: 15px;
+    
+}
+.weight{
+    display: inline-block;
+    padding: 15px;
+}
+.height{
+    display: inline-block;
+    padding: 15px;
+}
+.submit-button{
+    color: whitesmoke;
+    background-color:black;
+    font-family: 'Red Hat Mono', monospace;
+    height: 30px;
+    width:100px;
+    font-size: large;
+    border-radius: 2rem;
+}
+
+
+.calculator{
+    background-color: #F4FCD9;
+    height: 550px;
+    padding: 30px 5px 0px 10px;
+    text-align: center;
+}
+.display{
+    font-family: 'Abril Fatface', cursive;
+    display: inline-block;
+    text-align: center;
+    font-size: xx-large;
+    padding-top: 1.5cm;
+
+}
+#ddisplay{
+    font-family: 'Abril Fatface', cursive;
+    display: inline-block;
+    padding: 5px;
+    font-size: xx-large;
+    padding-top: 3cm;
+}
+#weight-status-verdict{
+    display: inline-block;
+    font-family: 'Abril Fatface', cursive;
+    font-size: x-large;
+    padding-left: 5px;;
+}
+.weight-status-header{
+    display: inline-block;
+    font-family: 'Abril Fatface', cursive;
+
+}
+.calc-heading{
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+    font-size: 45px;
+    
+}
+.buttondiv{
+    text-align: center;
+}
+.formdiv{
+    text-align: center;
+    padding-left: 60px;
+    padding-right: 60px;
+    
+}
+#aage{
+    width: 2cm;
+   
+    
+}
+#wweight{
+    width: 2cm;
+    
+
+}
+#hheight{
+    width: 2cm;
+   
+
+}
+.copyright{
+    height: 30px;
+    background-color: white;
+    text-align: center;
+    
+    margin-top: 0px;
+}

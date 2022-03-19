@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="C:\Users\aviru\OneDrive\Desktop\BMI Calculator Project\CSS\styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <section class="navbar">
+        <h1 class="navtext">BMI-Body Mass Index</h1>                
+    </section>
+    <section class="info">
+        
+        <div class="info-text">
+            <h2 class="info-text-header">What is Body Mass Index?</h2>
+            <p class="info-text-defn"><b>Mass Index (BMI) is a person’s weight in kilograms divided by the square of height in meters. A high BMI can indicate high body fatness. BMI screens for weight categories that may lead to health problems, but it does not diagnose the body fatness or health of an individual. </b> </p>                              
+            </div>
+            <div class="info-img">            <img src="C:\Users\aviru\OneDrive\Desktop\BMI Calculator Project\Images\excercise.png" alt="health" class="infoimage" >
+            </div>          
+        
+      
+    </section>
+    <section class="calculator">
+      <h1 class="calc-heading">BODY MASS INDEX CALCULATOR</h1>
+      <div class="formdiv">
+        <form action="#" class="form-elements" method="get">
+          <p class="age"><b>Age</b></p>
+          <input type="text" id="aage">
+          <p class="weight"><b>Weight(in kgs)</b></p>
+          <input type="text" id="wweight">
+          <p class="height"><b>Height(in cms)</b></p>
+          <input type="text" id="hheight">        
+        </form> 
+      </div>
+      
+      <div class="buttondiv"> <button onclick="myfunction()" class="submit-button"> <em>Submit</em> </button></div>   
+      <div><h2 class="display">Your BMI is: </h2> 
+        <div id="ddisplay"></div>                
+      </div>  
+      <div class="weight-status">
+        <h2 class="weight-status-header">Your weight status:</h2>
+        <p id="weight-status-verdict"></p>
+      </div> 
+    </section>
+    <section class="copyright">
+      <div >
+        <p> <i>Created on 19/03/2022 © Avirup Banerjee</i> </p>
+      </div>
+    </section>
+     
+    <script src="C:\Users\aviru\OneDrive\Desktop\BMI Calculator Project\JS\calculation.js"></script>
+</body>
+</html>
